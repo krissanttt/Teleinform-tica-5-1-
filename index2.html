@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contenido 1 - TP N°18 Teleinformática</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imagenes/images (copia 1).jpeg" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="window-container">
+    <header>
+      <div class="title-bar">
+        <h1>Contenido 1: Medios Guiados y No Guiados</h1>
+        <span class="badge-info">EEST N°2</span>
+      </div>
+      <nav>
+        <a href="index.html" class="nav-btn">🌐 Inicio</a>
+        <a href="index2.html" class="nav-btn active">📡 Contenido 1</a>
+        <a href="index3.html" class="nav-btn">🚀 Contenido 2</a>
+        <a href="index4.html" class="nav-btn">📚 Recursos y Cuestionario</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Par Trenzado, Coaxial, Fibra Óptica -->
+      <section class="content-card">
+        <h2>1. Medios Guiados (Físicos) - TP 11 y 12</h2>
+        <p>Son aquellos que conducen las señales a través de un medio sólido y delimitado. Su capacidad de transmisión depende del material conductor, el grosor y la distancia del enlace.</p>
+        
+        <div class="grid-3">
+          <div class="sub-card">
+            <div>
+              <h3>Par Trenzado (UTP / STP)</h3>
+              <p>Formado por pares de hilos de cobre aislados y entrelazados helicoidalmente para cancelar la interferencia electromagnética externa y la diafonía (crosstalk).</p>
+              <p><strong>Uso:</strong> Cableado estructurado en redes LAN (Cat 5e, Cat 6, Cat 6A) hasta 100 metros.</p>
+            </div>
+          </div>
+          <div class="sub-card">
+            <div>
+              <h3>Cable Coaxial</h3>
+              <p>Consta de un núcleo rígido de cobre central, un aislante dieléctrico, una malla metálica de blindaje contra ruidos y una cubierta aislante exterior.</p>
+              <p><strong>Uso:</strong> Televisión por cable (CATV), acometidas de Internet y enlaces de radiofrecuencia.</p>
+            </div>
+          </div>
+          <div class="sub-card">
+            <div>
+              <h3>Fibra Óptica</h3>
+              <p>Filamentos ultrafinos de vidrio o silicio (núcleo y revestimiento) que transmiten pulsos de luz mediante reflexión interna total.</p>
+              <p><strong>Ventajas:</strong> Ancho de banda masivo (Gbps/Tbps), baja atenuación e inmunidad total al ruido eléctrico.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-box">
+          <img src="imagenes/medio.jpeg" alt="Comparativa de cables guiados: par trenzado, coaxial y fibra óptica">
+          <p class="image-caption">Estructura física de los principales medios de transmisión guiados</p>
+        </div>
+      </section>
+
+      <!-- Láser y Radiocomunicaciones -->
+      <section class="content-card">
+        <h2>2. Medios No Guiados (Inalámbricos) - TP 16</h2>
+        <p>Transportan ondas electromagnéticas sin utilizar un conductor físico; la señal se irradia a través del aire o el vacío mediante antenas o emisores ópticos.</p>
+        
+        <div class="split-content">
+          <div>
+            <div class="info-box">
+              <h3>Láser (FSO - Free Space Optics)</h3>
+              <p>Utiliza haces de luz infrarroja o láser altamente direccionales en <strong>línea de vista directa</strong> entre dos edificios o puntos fijos. Alcanza velocidades similares a la fibra óptica sin tender cables, pero es sensible a la niebla densa, humo o turbulencias atmosféricas.</p>
+            </div>
+            <div class="info-box">
+              <h3>Radiocomunicaciones</h3>
+              <p>Transmisión omnidireccional o direccional mediante ondas de radiofrecuencia (RF). Incluye tecnologías como Wi-Fi, Bluetooth, telefonía celular (4G/5G), radio AM/FM y enlaces punto a punto.</p>
+            </div>
+          </div>
+
+          <div class="image-box" style="margin-top: 0;">
+            <img src="imagenes/noguiados.jpeg" alt="Transmisión inalámbrica y espectro electromagnético">
+            <p class="image-caption">Propagación de señales en medios no guiados</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Redes de Telecomunicaciones -->
+      <section class="content-card">
+        <h2>3. Redes de Telecomunicaciones - TP 17</h2>
+        <div class="split-content">
+          <div>
+            <p>Conjunto de nodos (computadoras, switches, routers, servidores) interconectados entre sí para compartir recursos, servicios e información mediante protocolos estándar (como TCP/IP).</p>
+            <ul>
+              <li><strong>PAN (Personal Area Network):</strong> Alcance de pocos metros alrededor de una persona (ej. Bluetooth, auriculares inalámbricos).</li>
+              <li><strong>LAN (Local Area Network):</strong> Cobertura local dentro de un edificio, laboratorio escolar u oficina, con alta velocidad y baja latencia.</li>
+              <li><strong>MAN (Metropolitan Area Network):</strong> Interconecta varias LAN dentro de una misma ciudad o campus universitario mediante anillos de fibra óptica.</li>
+              <li><strong>WAN (Wide Area Network):</strong> Redes de área amplia que abarcan países o continentes enteros, siendo Internet la red WAN global por excelencia.</li>
+            </ul>
+          </div>
+
+          <div class="image-box" style="margin-top: 0;">
+            <img src="imagenes/redes.jpeg" alt="Esquema de redes LAN, MAN y WAN">
+            <p class="image-caption">Clasificación de redes según su alcance geográfico</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Teleinformática - EEST N°2 | Prof. Carrizo Rivera Maritza</p>
+    </footer>
+  </div>
+
+</body>
+</html>
